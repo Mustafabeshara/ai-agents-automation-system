@@ -1,0 +1,29 @@
+{
+  "name": "claude-flow",
+  "version": "1.0.0",
+  "description": "Automatically spawn and manage agents based on task requirements",
+  "main": "index.js",
+  "bin": {
+    "claude-flow": "./bin/claude-flow.js"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node bin/claude-flow.js"
+  },
+  "keywords": [
+    "claude",
+    "agents",
+    "automation",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
